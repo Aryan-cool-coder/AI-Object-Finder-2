@@ -1,0 +1,38 @@
+body {
+    background-size: cover;
+
+}
+
+.h1 {
+    height: 119px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 3px groove cyan;
+    background-image: linear-gradient(red, blue);
+    text-align: center;
+}
+
+#header {
+    color: rgb(210, 234, 255);
+    
+}
+#note {
+    color: rgb(208, 230, 250);
+    font-size: 20px;
+}
+p {
+    size: 25px;
+}
+
+#object_search {
+    width: 80px;
+    border: solid greenyellow 3px;
+    border-radius: 10px;
+}
+canvas {
+    box-shadow:5px 5px 5px;
+    border: solid yellow 4px;
+    border-radius: 10px;
+    background-color: white ;
+}

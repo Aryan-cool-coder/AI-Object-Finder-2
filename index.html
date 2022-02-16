@@ -1,0 +1,31 @@
+<html>
+<head>
+
+	<title>AI Video Surveillance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<center>
+<body background="AI_background.jpg">
+    <div id = "heading" class="h1">
+    <h1 id ="header"> AI OBJECT FINDER</h1>
+    <p id="note"> NOTE: place an object visible in front of the camera, the Model will recognize most of the objects that you place. Start by typing what object you would like to detect below</p>
+</div>
+
+<input id = "objectDetect" type= "text">
+<br>
+<br>
+<button id = 'start' onclick = start() class="btn btn-success">Start
+<div id = "modelStatus"></div>
+<div id = "foundStatus"></div>
+</center>
+</body>
+</html>
